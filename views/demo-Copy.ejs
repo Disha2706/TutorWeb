@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Explore</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="demo - Copy.css">
+    <script src="https://kit.fontawesome.com/ebfafc2eb8.js" crossorigin="anonymous"></script>
+    <script src="explore.js"></script>
+</head>
+
+<body class="dark">
+    <div class="navbar">
+        <a href="/explore" class="smallicon"><img src="smallicon.png" height=44 alt="find private tutors online"></a>
+        <div class="searchbox animated zoomIn">
+            <form method="get">
+                <input oninput="triggercross(this.value)" onkeyup="searchFunction()" type="text" placeholder="search"
+                    id="search" name="search" class="search"><i class="fas fa-search"></i>
+                <button onclick="close1()" id="closeid" type="reset" class="close">
+                    <i class="fas fa-times"></i>
+                </button>
+            </form>
+
+        </div>
+        <div class="smallicon menu">
+            <ul class="ul">
+                <li class="li"><a href="tutorfieldhomepg.html">Home</a></li>
+                <li class="li"><a href="how-it-works">Following</a></li>
+                <li class="li"><a href="request">User</a></li>
+                <li class="li dropdown"><button class="a"><i class="fas fa-map-marked-alt"></i></button>
+                    <span class="one">
+                        <div class="dropdown-content" id="dropdown-content">
+                            <% for(var i=0;i<50 ;i++){ %>
+                            <form action="/explore" method="GET"><input type="submit" value="<%=cities[i].city %>">
+                                </input>
+                            </form>
+                            <% } %>
+                        </div>
+                    </span>
+                </li>
+                <li class="li"><button value="changetheme" onclick="changetheme()" class="toggle"></button>
+                </li>
+                <li class="li dropdown"><button class="a"><i class="fas fa-user-circle"></i></button>
+                    <span class="two">
+                        <div class="dropdown-content">
+                            <form action="/" method="GET"><input type="button" name="city" value="My Profile"> </input>
+                            </form>
+                            <form action="/" method="GET"><input type="button" name="city" value="Wishlist"> </input>
+                            </form>
+                            <form action="/" method="GET"><input type="button" name="city" value="My Purchases">
+                                </input>
+                            </form>
+                        </div>
+                    </span>
+                </li>
+                <!-- it should user's name instead of user icon -->
+                <!-- <li class="li"><button class="a"><i class="fas fa-map-marked-alt"></i></button></li> -->
+            </ul>
+        </div>
+    </div>
+    <div class="tabs flex">
+        <% for(var i=0;i<categories.length ;i++){ %>
+        <button id="channge" onclick="changebutton(this)" class="tabcontent"><%= categories[i].Category%></button>
+        <% } %>
+    </div>
+    <div class="boxlayout ">
+        <% for(var i=0;i<tutors.length ;i++){ %>
+        <div class="box ">
+            <div>
+                <img src="<%= tutors[i].imgpath%>"> <input type="checkbox" class="wish fas fa-heart">
+                <!-- <a href="/<%= tutors[i]._id%>" class="button link"> Details</a> -->
+            </div>
+            <div class="content" onclick="window.location=' /<%= tutors[i]._id%>'">
+                <ul class="contentlist" id="wrapper">
+                    <li class="li-name">
+                        <p><%= tutors[i].Title%>
+                            <!-- <span class="fas fa-star checked"></span>
+                            <span class="fas fa-star checked"></span>
+                            <span class="fas fa-star checked"></span>
+                            <span class="fas fa-star"></span>
+                            <span class="fas fa-star"></span> -->
+                        </p>
+                    </li>
+                    <li>
+                        <p><i class="fas fa-rupee-sign"></i><span class="strikethrough"><%= tutors[i].feesold%>
+                            </span><%= tutors[i].feesnew%></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <% } %>
+    </div>
+</body>
+
+</html>

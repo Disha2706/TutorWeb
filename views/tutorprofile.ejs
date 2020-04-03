@@ -1,0 +1,110 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" type="text/css" href="tutorprofile.css" media="screen">
+    <script src="https://kit.fontawesome.com/ebfafc2eb8.js" crossorigin="anonymous"></script>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script> -->
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+        </header>
+        <main>
+            <div class="row">
+                <div class="left col-lg-4">
+                    <div class="photo-left">
+                        <img class="photo"
+                            src="https://image.noelshack.com/fichiers/2017/38/2/1505775062-1505606859-portrait-1961529-960-720.jpg" />
+                        <div class="active"></div>
+                    </div>
+                    <h4 class="name">Jane Doe</h4>
+                    <p class="info">UI/UX Designer</p>
+                    <p class="info">jane.doe@gmail.com</p>
+                    <p class="info">#design#programming</p>
+                    <div class="stats row">
+                        <div class="stat col-xs-4" style="padding-right: 50px;">
+                            <p class="number-stat">3,619</p>
+                            <p class="desc-stat">Followers</p>
+                        </div>
+                        <div class="stat col-xs-4">
+                            <p class="number-stat">42</p>
+                            <p class="desc-stat">Following</p>
+                        </div>
+                        <div class="stat col-xs-4" style="padding-left: 50px;">
+                            <p class="number-stat">38</p>
+                            <p class="desc-stat">Uploads</p>
+                        </div>
+                    </div>
+                    <p class="desc">Hi ! My name is Jane Doe. I'm a UI/UX Designer from Paris, in France. I really enjoy
+                        photography and mountains.</p>
+                    <div class="social">
+                        <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                        <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                        <i class="fa fa-pinterest-square" aria-hidden="true"></i>
+                        <i class="fa fa-tumblr-square" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="right col-lg-8">
+                    <ul class="nav">
+                        <li><button class="tablinks active" onclick="openCity(event, 'About')">About</button></li>
+                        <li><button class="tablinks" onclick="openCity(event, 'Qualification')">Qualification</button>
+                        </li>
+                        <li><button class="tablinks" onclick="openCity(event, 'Fees')">Fees</button></li>
+                        <!-- <li>About</li> -->
+                    </ul>
+                    <span class="follow">Follow</span>
+                    <div id="About" class="row tabcontent active" style="display:block">
+                        <h3><i class="fas fa-map-marker-alt"></i></h3>
+                        <p>
+                            <ul class="ulinpara">
+                                <li><i class="fas fa-link"></i></li>
+                                <li><i class="fas fa-briefcase"></i></li>
+                                <li><i class="fas fa-phone"></i></li>
+                                <li>teaching experience</li>
+                                <li>Google maps api</li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div id="Qualification" class="row tabcontent" style="display:none">
+                        <h3>Education</h3>
+                        <h3>Degree</h3>
+                        <p>Undergraduate:</p>
+                    </div>
+                    <div id="Fees" class="row tabcontent" style="display:none">
+                        <h3>Lesson type</h3>
+                        <p>
+                            <ul>
+                                <li>One to One</li>
+                                <li>In Group</li>
+                                <li>Online</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script>
+        function openCity(evt, cityName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+    </script>
+</body>
+
+</html>
