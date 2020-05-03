@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <Title><%= type %> </Title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="/">
+    <link rel="stylesheet" href="css/Wishlist.css">
+    <script src="https://kit.fontawesome.com/ebfafc2eb8.js" crossorigin="anonymous"></script>
+    <script src="Wishlist.js"></script>
+    <script src="explore.js"></script>
+</head>
+
+<body class="light">
+    <div class="navbar">
+        <a href="/" class="smallicon"><img src="smallicon.png" height=44 alt="find private tutors online"></a>
+        <div class="searchbox animated zoomIn">
+            <form method="get" action="/explore">
+                <input oninput="triggercross(this.value)" onkeyup="searchFunction()" type="text" placeholder="search"
+                    id="search" name="search" class="search"><i class="fas fa-search" style="top:45%;
+                    left:8%;"></i>
+                <button onclick="close1()" id="closeid" type="reset" class="close" style=" right:-140%;">
+                    <i class="fas fa-times"></i>
+                </button>
+            </form>
+
+        </div>
+        <div class="smallicon menu">
+            <ul class="ul">
+                <li class="li">
+                </li>
+                <li class="li"><a href="/" style="padding:12px !important ;">Home</a></li>
+
+                <li class="li"><a href="/" style="padding:12px !important ;"><%=currentuser.username%></a></li>
+                <li class="li"><a href="/logout" style="padding:12px !important ;">Log Out</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <section class="shopping-cart">
+        <ol class="ui-list shopping-cart--list" id="shopping-cart--list">
+
+            <div id="shopping-cart--list-item-template">
+                <% for(var i=0;i<tutors.length ;i++){ %>
+                <li class="_grid shopping-cart--list-item">
+                    <div class="_column product-image" style="width:100px;height:100px;">
+                        <img class=" product-image--img" style="width:120px;height:190px;" src="<%=tutors[i].imgpath%>"
+                            alt="Item image" />
+                    </div>
+                    <div class="_column product-info">
+                        <h4 class="product-name"><%= tutors[i].Title %> </h4>
+                        <p class="product-desc"><%= tutors[i].By%> </p>
+                        <% if(type=="My Purchases"){%>
+                        <p class="product-desc"> Purchased on <%= tutors[i].date%> </p>
+                        <% } %>
+                        <div class="price product-single-price"><i
+                                class="fas fa-rupee-sign"></i><%= tutors[i].feesnew %> </div>
+                    </div>
+                    <div class="_column product-modifiers">
+                        <% if(type=="Wishlist"){%>
+                        <button class="_btn entypo-trash product-remove"><a
+                                href="/user/delete_profile/<%=tutors[i]._id %>">Remove</a></button>
+                        <button class="price product-total-price"><a href=" /show/<%=tutors[i].id %>/checkout">Buy
+                                <i class="fas fa-rupee-sign"> </i> <%= tutors[i].feesnew %> </a></button>
+                        <% } else{ %>
+                        <button class="price product-total-price"><a href=" /show/<%=tutors[i].id %>/checkout">Buy
+                                it again </a></button>
+                        <% } %>
+                    </div>
+                </li>
+                <% } %>
+            </div>
+
+        </ol>
+
+    </section>
+    </div>
+</body>
+
+</html>

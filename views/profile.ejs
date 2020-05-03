@@ -1,0 +1,59 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <Title>Profile</Title>
+    <link rel="stylesheet" type="text/css" href="css/show.css">
+    <script src="https://kit.fontawesome.com/ebfafc2eb8.js" crossorigin="anonymous"></script>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.1/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="explore.js"></script>
+
+</head>
+
+<body class="dark"> -->
+<%- include ("layouts/tutorheader") %>
+
+<h2>Your courses</h2>
+<a href="/tutor/add_tutor" class="btn btn-primary">Add a course</a>
+
+<br><br>
+
+<% if (count> 0 ){%>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th><a href="/<%= tutors._id %>"></a>Course </th>
+            <th>Edit</th>
+            <th>Delete</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        <% tutors.forEach (function(tutor){ %>
+
+        <tr>
+            <td> <%= tutor.Title %> </td>
+
+
+            <td> <a href="/tutor/edit_tutor/<%= tutor.Title %>">Edit</a> </td>
+
+            <td><a class="confirmDeletion" href="/tutor/delete_tutor/<%= tutor._id %>">Delete</a> </td>
+
+        </tr>
+        <% }); %>
+    </tbody>
+</table>
+<% } else{ %>
+<h2 class="text-center">There are no courses by You </h2>
+
+<%  } %>
+
+
+<%- include ("layouts/footer") %>

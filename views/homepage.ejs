@@ -1,0 +1,350 @@
+<html>
+
+<head>
+    <title>TutorWeb</title>
+    <link rel="stylesheet" type="text/css" href="css/homepage.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8" name="viewpoint" content="width= device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/ebfafc2eb8.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="css/owl.carousel.css">
+</head>
+
+<body>
+    <section class="header">
+        <div class="container">
+            <img src="smallicon.png">
+            <% if(user=="none"){%>
+            <a href="/login" class="login-btn">Login</a>
+            <a href="/aboutus" class="login-btn">About Us</a>
+            <% } else{ %>
+            <a href="/logout" class="login-btn">Log Out</a>
+            <a href="/aboutus" class="login-btn">About us</a>
+            <a href="/Explore" class="login-btn">Explore</a>
+            <%  } %>
+        </div>
+        <h1> Tutor For Every User</h1>
+        <p>Please visit our page again</p>
+        <div class="input-group">
+            <form method="GET" action="/explore">
+                <input type="text" class="form-control " name="search" id="search" placeholder="Search Tutors"></form>
+        </div>
+    </section>
+    <section class="features">
+        <h1>Featured Tutors</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="box flip-card">
+                        <div class="flip-card-inner ">
+                            <div class="flip-card-front">
+                                <img src="travelwriting.jpg" style="width:250px;height:200px;">
+                            </div>
+                            <div class="flip-card-back " id="wrapper">
+                                <h3>Travel Writing Workshop</h3>
+                                <p><i class="fas fa-rupee-sign"></i><span class="strikethrough">750
+                                    </span>740</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="box flip-card">
+                        <div class="flip-card-inner ">
+                            <div class="flip-card-front">
+                                <img src="teamnaachmum4.jpg" style="width:250px;height:200px;">
+                            </div>
+                            <div class="flip-card-back " id="wrapper">
+                                <h3>Team Naach Choreography Workshop</h3>
+                                <p><i class="fas fa-rupee-sign"></i><span class="strikethrough">750
+                                    </span>500</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-md-3">
+                    <div class="box flip-card">
+                        <div class="flip-card-inner ">
+                            <div class="flip-card-front">
+                                <img src="teamnaachmum2.jpg" style="width:250px;height:200px;">
+                            </div>
+                            <div class="flip-card-back " id="wrapper">
+                                <h3>Team Naach Choreography Workshop</h3>
+                                <p><i class="fas fa-rupee-sign"></i><span class="strikethrough">750
+                                    </span>500</p>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                <div class="col-md-4">
+                    <div class="box flip-card">
+                        <div class="flip-card-inner ">
+                            <div class="flip-card-front">
+                                <img src="science.png" style="width:250px;height:200px;">
+                            </div>
+                            <div class="flip-card-back " id="wrapper">
+                                <h3>CBSE Science Classes</h3>
+                                <p><i class="fas fa-rupee-sign"></i><span class="strikethrough">750
+                                    </span>1500</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <section class="gallery">
+        <h1>Find Your Subject</h1>
+        <div class="container">
+            <div class="services__box">
+                <div class="row">
+                    <div class="col-xl-2 col-md-4 col-sm-6">
+                        <!-- services-post module -->
+                        <a href="/Language" class="services-post">
+                            <div class="services-post__content">
+                                <i class="fas fa-language"></i>
+                                <h2 class="services-post__title">
+                                    Language
+                                </h2>
+                            </div>
+                        </a>
+                        <!-- end services-post module -->
+                    </div>
+
+                    <div class="col-xl-2 col-md-4 col-sm-6">
+                        <!-- services-post module -->
+                        <a href="/Programming" class="services-post">
+                            <div class="services-post__content">
+                                <i class="fas fa-laptop-code"></i>
+                                <h2 class="services-post__title">
+                                    Programming
+                                </h2>
+                            </div>
+                        </a>
+                        <!-- end services-post module -->
+                    </div>
+
+                    <div class="col-xl-2 col-md-4 col-sm-6">
+                        <!-- services-post module -->
+                        <a href="/Academic" class="services-post">
+                            <div class="services-post__content">
+                                <i class="fas fa-flask" aria-hidden="true"></i>
+                                <h2 class="services-post__title">
+                                    Academics
+                                </h2>
+                            </div>
+                        </a>
+                        <!-- end services-post module -->
+                    </div>
+
+                    <div class="col-xl-2 col-md-4 col-sm-6">
+
+                        <!-- services-post module -->
+                        <a href="/Drama" class="services-post">
+                            <div class="services-post__content">
+                                <i class="fas fa-theater-masks"></i>
+                                <h2 class="services-post__title">
+                                    Drama
+                                </h2>
+                            </div>
+                        </a>
+                        <!-- end services-post module -->
+                    </div>
+
+                    <div class="col-xl-2 col-md-4 col-sm-6">
+
+                        <!-- services-post module -->
+                        <a href="/Music" class="services-post">
+                            <div class="services-post__content">
+                                <i class="fas fa-music" aria-hidden="true"></i>
+                                <h2 class="services-post__title">
+                                    Music
+                                </h2>
+                            </div>
+                        </a>
+                        <!-- end services-post module -->
+
+                    </div>
+
+                    <div class="col-xl-2 col-md-4 col-sm-6">
+                        <!-- services-post module -->
+                        <a href="/Arts" class="services-post">
+                            <div class="services-post__content">
+                                <i class="fas fa-palette"></i>
+                                <h2 class="services-post__title">
+                                    Arts
+                                </h2>
+                            </div>
+                        </a>
+                        <!-- end services-post module -->
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="banner">
+        <div class="banner-highlight">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <h2>Get 60% on top tutors around world</h2>
+                        <p>Book your seats before 30th April and avail 60% flat discount.</p>
+                    </div>
+                    <div class="col-md-4"></div>
+                    <button type="button" class="booking-btn"> BOOK NOW </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="statistic" class="statistic-section one-page-section">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-xs-12 col-md-6">
+                    <div class="counter">
+                        <i class="fa fa-code fa-2x stats-icon"></i>
+                        <h2 class="timer count-title count-number">60
+                        </h2>
+                        <div class="stats-line-black"></div>
+                        <p class="stats-text">Tutors</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <div class="counter">
+                        <i class="fas fa-users  fa-2x stats-icon"></i>
+                        <h2 class="timer count-title count-number">105982</h2>
+                        <div class="stats-line-black"></div>
+                        <p class="stats-text">Visitors</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <div class="testimonial-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="owl-carousel test-slides" id="testional-carousel">
+                        <div class="item">
+                            <div class="single-testimonial">
+                                <div class="img-area">
+                                    <img src="user.jpg" alt="image not available">
+                                </div>
+                                <div class="testi-text">
+                                    <h4>hbghgh</h4>
+                                    <p>hhghg</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="single-testimonial">
+                                <div class="img-area">
+                                    <img src="user.jpg" alt="image not available">
+                                </div>
+                                <div class="testi-text">
+                                    <h4></h4>
+                                    <p></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="single-testimonial">
+                                <div class="img-area">
+                                    <img src="user.jpg" alt="image not available">
+                                </div>
+                                <div class="testi-text">
+                                    <h4></h4>
+                                    <p></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <section class="users-feedback">
+        <h1>Users Review</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="users-review">
+                        <p>I happened to be there for their workshop in Bangalore and it was the best lifetime
+                            experience! The energy and the excitement felt in that room was such a memorable one for me!
+                            Keep up the good work guys :) keep rocking!
+                        </p>
+                        <h5>Himanshi Sodhi</h5>
+                        <small>Team Naach </small>
+                    </div>
+                    <img src="user.jpg">
+                </div>
+                <div class="col-md-4">
+                    <div class="users-review">
+                        <p>This tutorial is perfect to get you started with web dev. It is pretty basic but that is more
+                            than enough to get you into how things work and help you make your first steps in web dev.
+                        </p>
+                        <h5>Rahul Dravid</h5>
+                        <small> Colt Steele </small>
+                    </div>
+                    <img src="user1.jpg">
+                </div>
+                <div class="col-md-4">
+                    <div class="users-review">
+                        <p>Overall I did enjoy the course as they go well into detail explaining all the components and
+                            how they work, I would have liked to learn how to pick mortise/lever locks as well as
+                            picking vehicle locks.
+
+                            Thanks guys :)
+                        </p>
+                        <h5>Sunil Shetty</h5>
+                        <small>The Art of Lockpicking</small>
+                    </div>
+                    <img src="user2.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="smallicon.png" class="footer-logo">
+                    <p>Get a personalised tutor for every user!
+                </div>
+                <div class="col-md-3">
+                    <h4> Features</h4>
+                    <p>Deals & Offers</p>
+                    <p>Customer Reviews</p>
+                    <p>Cancelation policy</p>
+                </div>
+                <div class="col-md-3">
+                    <h4>Quick Contact </h4>
+                    <p><i class="fa fa-phone-square"></i>+91 8976661574</p>
+                    <p><i class="fa fa-envelope-o"></i>
+                        <worldtravel24@gmail class="com">worldtravel24@gmail.com
+                    </p>
+                    <p><i class="fa fa-home"></i>221B Baker Street</p>
+                </div>
+                <div class="col-md-3">
+                    <h4>Follow us </h4>
+                    <p><i class="fa fa-facebook-offical"></i>Facebook</p>
+                    <p><i class="fa fa-youtube-play"></i>YouTube</p>
+                    <p><i class="fa fa-twitter"></i>Twitter</p>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright"> Copyright<i class="far fa-copyright"></i> </img>TutorWeb,Inc</p>
+        </div>
+    </section>
+</body>
+
+</html>

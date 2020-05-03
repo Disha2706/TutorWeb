@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <link rel="stylesheet" href="/css/forms.css">
+  <Title>TutorWeb - Register as a Tutor or Student</Title>
+
+</head>
+
+<body>
+  <div id="contentheader">
+
+    <div id="contentheadertext">
+
+      <h1>SIGN UP FOR TUTORWEB</h1>
+
+      <p>If you are a tutor or student looking to make full use of Tutor Hunt please fill in the form below. If any
+        student / tutor viewing this site searches for your criteria, we will give them the opportunity to contact you.
+      </p>
+    </div>
+  </div>
+
+  <div id="maincontentbg">
+    <div id="maincontent">
+      <span>
+        <div id="tabbox">
+          <div class="tabitem " style="color: #a9d622;" background: #232427 ;><img src="/icon-account-selected.png"
+              alt="" />
+            <span class="tabno mobno">01. ACCOUNT INFORMATION</span> </div>
+
+          <br><br><br>
+          <% if (errors) {%>
+          <% errors.forEach(function(error) {%>
+          <div class="alert alert-danger"><%= error.msg %></div>
+          <% }); %>
+          <% }%>
+          <form action="/register" method="post">
+            <table class="forminputtable">
+              <tr>
+                <td>
+                  Name <input class="forminputtextpad" type="text" id="name" name="name" maxlength="90" required /></td>
+
+              </tr>
+              <tr>
+                <td class="form-group">
+                  Username <input class="forminputtextpad form-control" type="text" id="newusername" name="username"
+                    maxlength="25" required /></td>
+                <td>
+                  Email Address <input class="forminputtextpad" type="Email" id="email" name="email" maxlength="90"
+                    required /></td>
+              </tr>
+              <tr>
+
+                <td>
+                  Password <input class="forminputtextpad" type="password" id="newpassword" name="password"
+                    onsubmit="return check()" required /></td>
+                <td>
+                  Confirm Password <input class="forminputtextpad" type="password" id="password2" name="password2"
+                    required /></td>
+                <span id="message1"></span>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  Enter OTP<input class="forminputtextpad" type="text" id="otp" name="otp" required /></td>
+                <span id="message1"></span>
+              </tr>
+
+
+              <tr>
+                <td colspan="2">
+                  <label class="checkcontainer">I agree to TutorWeB Terms & Conditions<input type="checkbox" name="tos"
+                      id="tos" required /></label> </td>
+              </tr>
+              <tr>
+                <td colspan="2"><input type="submit" class="btn green small" value="Continue">
+                </td>
+              </tr>
+            </table>
+          </form>
+        </div>
+    </div>
+</body>
+
+</html>
