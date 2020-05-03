@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+:root{
+  --gray0:#ffffff;
+  --gray1:blueviolet;
+  --gray2:#f1f1f1;
+ --gray3: #f1f3f4;
+  --gray4:#8e99a4;
+  --gray9:#777;
+ --gray5: #657781;
+  --gray6:#333;
+  --gray7:#999;
+  --gray8:red;
+  --gray10:rgba(0, 0, 0, 0.25);
+
+}
+.dark{
+  --bg:var(--gray6);
+  --Title:var(--gray0);
+  --name:var(--gray2);
+  --info:var(--gray3);
+  --hoverfont:var(--gray7);
+  --points:var(--gray1);
+  --reviewshadow:var(--gray9);
+}
+.light{
+  --bg:var(--gray0);
+  --Title:var(--gray0);
+  --name:var(--gray9);
+  --info:var(--gray5);
+  --hoverfont:var(--gray4);
+  --points:var(--gray8);
+  --reviewshadow:var(--gray10);
+}
+body{
+  margin:0;
+  padding:0;
+background-color:var(--bg);
+font-family: 'Nunito Sans', sans-serif;
+}
+
+header {
+  background-image: url("bg.jpg");
+  background-repeat: no-repeat;
+  
+  background-size: cover;
+  padding:20px;
+  height: 200px;
+}
+
+.Title{
+  padding:20px;
+text-align: center;
+color:#ffff;
+font-family: 'Roboto Slab', serif;
+}
+main {
+      padding: 20px 20px 0px 20px;
+      background-color:var(--bg);
+     
+}
+.left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.photo {
+  width: 200px;
+  height: 200px;
+  margin-top: -120px;
+  border-radius: 100px;
+  border: 4px solid #fff;
+}
+.name {
+  margin-top: 20px;
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 18pt;
+  text-align:center;
+  color:var(--name);
+}
+
+.info {
+  margin-top: -5px;
+  margin-bottom: 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11pt;
+  color: var(--info);
+}
+.desc {
+  text-align: center;
+  margin-top: 25px;
+  margin: 25px 40px;
+  color:var(--name);
+  font-size: 13pt;
+  font-family: "Open Sans";
+  padding-bottom: 25px;
+  border-bottom: 1px solid #ededed;
+}
+
+.social {
+  margin: 5px 0 12px 0;
+  text-align: center;
+  display: inline-block;
+  font-size: 20pt;
+  transition: font-size 1s;
+}
+
+
+.icon:hover{
+  font-size: 25pt;
+}
+
+.social i {
+  cursor: pointer;
+  margin: 0 15px;
+}
+
+.social i:nth-child(1)  { color: #4267b2; }
+.social i:nth-child(2)  { color: #1da1f2; }
+.social i:nth-child(3)  { color: #bd081c; }
+.social i:nth-child(4)  { color: #36465d; }
+.right {
+  padding: 0 25px 0 25px !important;
+}
+
+ul{
+  list-style-type: none;
+}
+.tab{
+  display: inline-flex;
+}
+.tab li {
+  margin: 40px 30px 0 10px;
+  cursor: pointer;
+  font-size: 13pt;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  list-style-type: none;
+  color:#8e99a4;
+}
+.tablinks{
+outline:none;
+text-decoration: none;
+background:none;
+border:none;
+font:inherit;
+color:inherit;
+font-size: 13pt;
+text-transform: uppercase;
+}
+.tab li button.active {
+  /* background-color: #ccc;  */
+   color: #999;
+  color:#999;
+  border-bottom: 2px solid #999;
+}
+
+.content{
+/* display: none; */
+padding: 6px 12px;
+/* border: 1px solid #ccc; */
+border-top: none;
+}
+
+.points{
+  /* color:red; */
+  color:var(--points);
+  padding-right: 2rem;
+}
+.details{
+  color:#999;
+  font-size: 2rem;
+  overflow: hidden;
+  padding: .5rem;
+}
+
+.animated {
+  -webkit-transition: height 0.2s;
+  -moz-transition: height 0.2s;
+  transition: height 0.2s;
+}
+
+.stars
+{
+  margin: 20px 0;
+  font-size: 24px;
+  color: #d17581;
+}
+
+.review {
+  display: inline-block;
+  margin: 4px;
+  padding: 1.1rem;
+  width: 620px;
+  border-radius: 3px;
+  border: 1px solid #bfbfbf;
+  background-color: #efeded;
+  box-shadow: 0px 0px 15px var(--reviewshadow);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+.review .review__Title {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+.review .review__score {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  margin-bottom: 0.8rem;
+}
+.review .review__score .score {
+  font-size: 2rem;
+}
+.review .review__score .score-stars {
+  margin-left: 0.8rem;
+}
+.review .review__text {
+  line-height: 1.45;
+}
+
+.ajaxbg{
+  position:fixed;
+  top:0px;
+  bottom:0px;
+  left:0px;
+  right:0px;
+  width: 100%;
+/* height:100vh; */
+background: var(--bg);
+opacity:0.8;
+z-index:5;
+display: none;
+}
+.ajaxinner{
+  position: absolute;
+  left:50%;
+  top:50%;
+  text-align: center;
+  transform: translate(-50%,-50%);
+
+}
+.ajaxinner img{
+  max-width: 100px;
+  height: 100px;
+}
+

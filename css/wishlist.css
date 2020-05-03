@@ -1,0 +1,343 @@
+[class*="entypo-"]:before { font-family: 'entypo', sans-serif; }
+:root{
+  --gray0:#ffffff;
+  --gray1:#f9f9f9;
+  --gray2:#f1f1f1;
+ --gray3: #f1f3f4;
+  --gray4:#8e99a4;
+ --gray5: #657781;
+  --gray6:#333;
+  --gray7:#001F3F;
+  --gray8:#000;
+}
+.dark{
+  --bg:var(--gray6);
+  --navfont:var(--gray4);
+  --tabfont:var(--gray3);
+  --hoverbg:var(--gray3);
+  --hoverfont:var(--gray5);
+  --selectedtab:var(--gray7);
+}
+.light{
+  --bg:var(--gray3);
+  --navfont:var(--gray6);
+  --tabfont:var(--gray6);
+  --hoverbg:var(--gray6);
+  --hoverfont:var(--gray4);
+  --selectedtab:var(--gray3);
+}
+body {
+  background-color: #ecf0f1;
+  font: 300 1em/1.4 "Lato", sans-serif;
+  color: #686868;
+}
+h1, h2, h3, h4, h5, h6 { font-weight: 400; }
+h1, .sub-heading {
+  text-align: center;
+  margin: .5rem 0 1rem;
+}
+.sub-heading {
+  font-size: .75em;
+  font-weight: 300;
+}
+
+/**
+ * @section: utilities;
+ * @see: Justify Grid [http://justifygrid.com/]
+ */
+._grid {
+  text-align: justify !important;
+  text-justify: distribute-all-lines;
+  font-size: 0 !important;
+  text-rendering: optimizespeed;
+}
+._grid:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+._column {
+  display: inline-block;
+  vertical-align: top;
+  font-size: medium;
+  text-align: left;
+  text-rendering: optimizeLegibility;
+}
+._btn {
+  display: inline-block;
+  background-color: #bdc3c7;
+  border: none;
+  padding: .5em .75em;
+  text-align: center;
+  font-weight: 300;
+}
+._btn:hover,
+.cart-totals:hover ._btn {
+  background-color: #3498db;
+  color: #ecf0f1;
+}
+
+/**
+ * @section: shopping-cart;
+ */
+.shopping-cart {
+  width: 80%;
+  max-width: 60rem;
+  margin: 0 auto;
+}
+/**
+ * @extends: _grid;
+ */
+
+ a
+ {
+   text-decoration: none;
+   color: #bdc3c7;
+ }
+.shopping-cart--list-item {
+  border: 1px solid #bdc3c7;
+  margin-bottom: 3rem;
+  height: 10rem;
+  overflow: hidden;
+}
+.shopping-cart--list-item:hover,
+.shopping-cart--list-item:hover * {
+  border-color: #3498db;
+}
+.shopping-cart--list-item > ._column {
+    height: 100%; /* make vertical lines match */
+}
+
+/**
+ * @section: product-image;
+ * @extends: _column;
+ */
+.product-image {
+  width: 16.663198%;
+  background: url("data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7") no-repeat center / cover transparent;
+}
+
+/**
+ * @section: product-info;
+ * @extends: _column;
+ */
+.product-info {
+  width: 70.832119%;
+  padding: .5rem;
+}
+.product-name {
+  font: 300 2.4em/1 "Lato", sans-serif;
+  letter-spacing: -.025em;
+  margin: 0 0 .125em;
+}
+.price {
+  line-height: 1;
+  text-align: right;
+}
+.product-single-price {
+  margin-top: -1rem;
+  font-size: 2.4em;
+}
+
+/**
+ * @section: product-modifiers;
+ * @extends: _column;
+ */
+.product-modifiers {
+  width: 12.496358%;
+  text-align: right;
+  border-left: 1px solid #bdc3c7;
+}
+.product-subtract,
+.product-plus,
+.product-qty {
+  width: 33.330557%;
+  background-color: transparent;
+  color: #686868;
+  text-align: center;
+}
+.product-qty {
+  padding: .35em .75em;
+}
+.product-remove {
+  font-size: .875em;
+  margin-top: 6rem;
+  background-color: #e74c3c;
+  color: #ecf0f1;
+  width: 100%;
+  visibility: hidden;
+}
+.product-buy {
+  font-size: .875em;
+  margin-top: 0rem;
+  background-color: lightskyblue;
+  color: #ecf0f1;
+  width: 100%;
+  visibility: hidden;
+}
+.product-modifiers:hover .product-remove {
+  visibility: visible;
+}
+.product-remove:before {
+  margin-right: .5em;
+}
+.product-remove:hover {
+  background-color: #c0392b;
+}
+.product-modifiers:hover .product-buy{
+  visibility: visible;
+}
+.product-buy:before {
+  margin-right: .5em;
+}
+.product-buy:hover {
+  background-color: lightskyblue;
+}
+.product-total-price {
+  border-top: 1px solid #bdc3c7;
+  color: #95a5a6;
+  font-size: 1.25em;
+  padding: .5rem;
+}
+.shopping-cart--list-item:hover .product-total-price {
+  background-color: #3498db;
+  color: #ecf0f1;
+}
+.navbar{
+  background-color:var(--bg);
+  font-family: 'Nunito Sans', sans-serif;
+  max-width:100%;
+  display: flex;
+ /* flex-wrap: wrap; */
+ justify-content:start;
+ border-bottom: 0.5px solid var(--navfont);
+ margin:0 !important;
+ padding:0;
+}
+
+.navbutton{
+  top:20px;
+  background: none;
+	border: none;
+	font: inherit;
+	cursor: pointer;
+  color:var(--navfont);
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+  outline:none;
+}
+
+.navbutton:hover{
+  background-color:var(--hoverbg) ;
+  border-radius: 25px;
+  text-decoration: none;
+  outline:none;
+  color:var(--hoverfont);
+}
+
+
+.fa {
+  font-size: 50px;
+  cursor: pointer;
+  user-select: none;
+}
+ .smallicon{
+   display: inline-block;
+   padding:1rem;
+ }
+  
+  .searchbox{
+    position: relative;
+    display: inline-block;
+    margin-left: 1.5rem;
+  }
+  .searchbox input:focus {
+    outline: none; /*By default,input shows an outline on focus */
+  }
+  .searchbox input{
+    z-index: 0;
+    margin-top: 6%;
+    width: 250%;
+    height: 40px;
+    background:#b8bfc6;
+    border-radius: 25px;
+    border: 2px solid #b8bfc6;
+  }
+  form{
+    display:inline-block;
+  }
+#closeid{
+  display: none;
+  outline: none;
+}
+.strikethrough{
+  text-decoration: line-through;
+  color:#8e99a4;
+}
+ .fa-search{
+     position: absolute;
+     top:39%;
+     left:8%;
+     color:#8e99a4;
+ }
+ .close{
+  position: absolute;
+  top:40%;
+  right:-160%;
+  color:#8e99a4;
+  z-index: 3;
+  outline: none;
+  background-color: #b8bfc6;
+  border: none;
+  padding: 0;
+}
+.search{
+color:#333;
+font-weight: 400; 
+padding-left: 50px;
+font-size: 18px;
+z-index: 3;
+
+}
+.fa-times{
+/* : #fb646f; */
+position: absolute;
+top:30%;
+right:5%;  
+}
+.menu{
+position: relative;
+margin-left: 470px;
+margin-top: 0%;
+}
+.ul {
+list-style-type: none;
+margin: 0 ;
+padding: 0;
+overflow: hidden;
+}
+
+.li {
+float: left;
+color:var(--nav);
+text-decoration: none;
+outline: none;
+padding: 0.1rem;
+}
+.li a {
+color:var(--navfont);
+display: block;
+padding-top: 12px;
+padding-right: 5px;
+padding-left: 5px;
+text-decoration: none;
+outline:none;
+}
+.ul li a:hover{
+background-color:var(--hoverbg) ;
+border-radius: 25px;
+text-decoration: none;
+outline:none;
+color:var(--hoverfont);
+}   

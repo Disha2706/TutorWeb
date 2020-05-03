@@ -1,0 +1,246 @@
+#contentheader
+{
+      height:260px;
+      background-image:linear-gradient(to bottom right, #0033cc, #000033 );
+}
+#contentheadertext h1
+{
+      color: #ffffff;
+      text-align:center;
+      font-size:250%;
+}
+#contentheadertext
+{
+	color: #ffffff;
+      width: 966px;
+      margin: 0 auto;
+      padding-top:20px;
+
+}
+  #contentheadertext p
+  {
+  	font-size:120%;
+  }
+  #maincontent , #homesearchboxcontainer,  #homesearchboxheader
+{
+  width: 966px;
+  margin: 0 auto;
+  clear: both;
+  /*margin-top: 20px;*/
+  padding: 5px;
+}
+#maincontentbg
+{
+      background: #f6f6f9;
+      
+}
+/*.tabno mobno
+{
+	float: left;
+	width: 33.33%
+}*/
+#tabbox
+{
+      position:relative;
+      top:-45px;
+      
+}
+
+.tabitem img
+{
+      padding: 0 10px 0 10px;
+}
+
+.tabitem 
+{
+      height:35px;
+      float:left;
+      width: 322px;
+      color: #fff;
+      padding-top: 15px;
+      font-size: 120%;
+      background: #2b2d30;
+      
+}
+/*
+.tabitem a
+{
+	text-decoration:none !important;
+	color: #fff !important;
+}
+
+
+#tabbox .premium
+{
+	width: 230px;
+}
+
+.tabitem img
+{
+      padding: 0 10px 0 10px;
+}
+*/
+/*.tableftselected
+{
+      background:  #232427 ;
+      
+}*/
+
+/*.tabnoneselected
+{
+      background:  #2b2d30;
+}
+
+
+
+
+.tablastselected
+{
+      background:  #232427;
+      
+      }*/
+.forminputtable
+{
+      width: 90%;
+      height:300px;
+      margin-left: 5%;
+}
+
+.forminputtable   td
+{
+      width: 50%;
+      padding:10px 10px 0 10px;
+}
+
+.forminputtable textarea
+{
+      height:350px;
+}
+
+.forminputtable .forminputtextpad , .forminputtable .formdropdownpad 
+{
+      width: 100%;
+      /* box-sizing: border-box;  */
+      margin-top:7px;
+      height:25px;
+      border-radius: 15px;
+}
+
+
+/*.forminputtable #doByear ,  .forminputtable #dobday , .forminputtable #dobmonth
+{
+      width:30%;
+      box-sizing: border-box; 
+}*/
+
+	/*.forminputtable #dobmonth
+	{
+	      width:38%;
+	}*/
+
+
+
+/*#siterating
+{
+ 
+      width: 100%;
+	  box-sizing: border-box;
+	  clear: both;
+      color: #333;
+      height: auto;
+      border: 1px solid #eee;
+      padding: 5px;
+        border-radius: 3px;
+        background: #eee;
+    
+}*/
+.btn
+{
+   font-size:15px;
+   color:#fff;
+   display:inline-block;
+   padding:12px 46px;
+   padding-bottom:9px;
+   margin-bottom:0;
+   font-weight: bold;
+   text-align:center;
+   white-space:nowrap;
+   vertical-align:middle;
+   cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;background-image:none;border-radius:3px;-webkit-transition:all .3s ease;-moz-transition:all .3s ease;transition:all .3s ease
+}
+/*.btn:visited
+{ 
+     color:#fff;
+}*/
+.btn:hover{color:#fff; text-decoration: none;}
+.btn.green{background-color:#a9d622;-moz-box-shadow:0 3px 0 #80ae19;box-shadow:0 3px 0 #80ae19}
+.btn.green:hover{background-color:#80ae19}
+/*.btn.blue{background-color:#7aa3e6;webkit-box-shadow:0 3px 0 #5080cd;-moz-box-shadow:0 3px 0 #5080cd;box-shadow:0 3px 0 #5080cd}
+.btn.blue:hover{background-color:#5080cd}
+.btn.red{background-color:#e64545;webkit-box-shadow:0 3px 0 #9b2e2e;-moz-box-shadow:0 3px 0 #9b2e2e;box-shadow:0 3px 0 #9b2e2e}
+.btn.red:hover{background-color:#9b2e2e}
+.btn.grey{color: #eee;background-color:#c2c2c2;webkit-box-shadow:0 3px 0 #a6a6a6;-moz-box-shadow:0 3px 0 #a6a6a6;box-shadow:0 3px 0 #c2c2c2}*/
+
+
+/*.nobuttonshadow
+{
+  webkit-box-shadow: none !important;
+  -moz-box-shadow: none  !important;
+  box-shadow: none  !important;
+   padding-bottom:11px;
+}
+*/
+
+/*.tablastselected
+{
+      background:  #2b2d30  ;
+}
+*/
+#head
+{
+	height:1000px;
+	background-image: url('back.jpg');
+	background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+}
+
+#headtext h1
+{
+      color: #000000;
+      padding: 40px;
+      text-align:center;
+      font-size:250%;
+}
+.searchheaderitem
+{
+      height:35px;
+      float:left;
+      width: 322px;
+      color: #fff;
+      padding-top: 15px;
+      font-size: 120%;
+
+      
+      
+}
+.alert {
+      position: relative;
+      padding: 0.75rem 1.25rem;
+      margin-bottom: 1rem;
+      border: 1px solid transparent;
+      border-radius: 0.25rem;
+    }
+    .alert-danger {
+      color: #721c24;
+      background-color: #f8d7da;
+      border-color: #f5c6cb;
+    }
+    
+    .alert-danger hr {
+      border-top-color: #f1b0b7;
+    }
+    
+    .alert-danger .alert-link {
+      color: #491217;
+    }
