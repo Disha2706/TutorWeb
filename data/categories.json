@@ -1,0 +1,14 @@
+{"_id":{"$oid":"5e75f5d56816523a18033612"},"Category":"All"}
+{"_id":{"$oid":"5e75f5d56816523a18033613"},"Category":"Language"}
+{"_id":{"$oid":"5e75f5d56816523a18033614"},"Category":"IT & Software"}
+{"_id":{"$oid":"5e75f5d56816523a18033615"},"Category":"Music"}
+{"_id":{"$oid":"5e75f5d56816523a18033616"},"Category":"Arts"}
+{"_id":{"$oid":"5e75f5d56816523a18033617"},"Category":"Lifestyle"}
+{"_id":{"$oid":"5e75f5d56816523a18033618"},"Category":"Health & Fitness"}
+{"_id":{"$oid":"5e75f5d56816523a18033619"},"Category":"Programming"}
+{"_id":{"$oid":"5e75f5d56816523a1803361a"},"Category":"Business"}
+{"_id":{"$oid":"5e75f5d56816523a1803361b"},"Category":"Humanities"}
+{"_id":{"$oid":"5e98614fa72b65d438940141"},"Category":"Dance"}
+{"_id":{"$oid":"5e98618da72b65d438940142"},"Category":"Gaming"}
+{"_id":{"$oid":"5e98619ca72b65d438940143"},"Category":"Drama"}
+{"_id":{"$oid":"5e9866207645cbef2c3caf74"},"Category":"Academic"}

@@ -1,521 +1,171 @@
-[
- {
-   "Mumbai": "Delhi"
- },
- {
-   "Mumbai": "Kolkata"
- },
- {
-   "Mumbai": "Chennai"
- },
- {
-   "Mumbai": "Bengaluru"
- },
- {
-   "Mumbai": "Hyderabad"
- },
- {
-   "Mumbai": "Ahmadabad"
- },
- {
-   "Mumbai": "Haora"
- },
- {
-   "Mumbai": "Pune"
- },
- {
-   "Mumbai": "Surat"
- },
- {
-   "Mumbai": "Mardanpur"
- },
- {
-   "Mumbai": "Ra�mpura"
- },
- {
-   "Mumbai": "Lucknow"
- },
- {
-   "Mumbai": "Nara"
- },
- {
-   "Mumbai": "Patna"
- },
- {
-   "Mumbai": "Indore"
- },
- {
-   "Mumbai": "Vadodara"
- },
- {
-   "Mumbai": "Bhopal"
- },
- {
-   "Mumbai": "Coimbatore"
- },
- {
-   "Mumbai": "Ludhiana"
- },
- {
-   "Mumbai": "agra"
- },
- {
-   "Mumbai": "Kalyan"
- },
- {
-   "Mumbai": "Vishakhapatnam"
- },
- {
-   "Mumbai": "Kochi"
- },
- {
-   "Mumbai": "Nasik"
- },
- {
-   "Mumbai": "Meerut"
- },
- {
-   "Mumbai": "Faridabad"
- },
- {
-   "Mumbai": "Varanasi"
- },
- {
-   "Mumbai": "Ghaziabad"
- },
- {
-   "Mumbai": "asansol"
- },
- {
-   "Mumbai": "Jamshedpur"
- },
- {
-   "Mumbai": "Madurai"
- },
- {
-   "Mumbai": "Jabalpur"
- },
- {
-   "Mumbai": "Rajkot"
- },
- {
-   "Mumbai": "Dhanbad"
- },
- {
-   "Mumbai": "Amritsar"
- },
- {
-   "Mumbai": "Warangal"
- },
- {
-   "Mumbai": "Allahabad"
- },
- {
-   "Mumbai": "Srinagar"
- },
- {
-   "Mumbai": "Aurangabad"
- },
- {
-   "Mumbai": "Bhilai"
- },
- {
-   "Mumbai": "Solapur"
- },
- {
-   "Mumbai": "Ranchi"
- },
- {
-   "Mumbai": "Jodhpur"
- },
- {
-   "Mumbai": "Guwahati"
- },
- {
-   "Mumbai": "Chandigarh"
- },
- {
-   "Mumbai": "Gwalior"
- },
- {
-   "Mumbai": "Thiruvananthapuram"
- },
- {
-   "Mumbai": "Tiruchchirappalli"
- },
- {
-   "Mumbai": "Hubli"
- },
- {
-   "Mumbai": "Mysore"
- },
- {
-   "Mumbai": "Raipur"
- },
- {
-   "Mumbai": "Salem"
- },
- {
-   "Mumbai": "Bhubaneshwar"
- },
- {
-   "Mumbai": "Kota"
- },
- {
-   "Mumbai": "Jhansi"
- },
- {
-   "Mumbai": "Bareilly"
- },
- {
-   "Mumbai": "Aligarh"
- },
- {
-   "Mumbai": "Bhiwandi"
- },
- {
-   "Mumbai": "Jammu"
- },
- {
-   "Mumbai": "Moradbada"
- },
- {
-   "Mumbai": "Mangalore"
- },
- {
-   "Mumbai": "Kolhapur"
- },
- {
-   "Mumbai": "Amravati"
- },
- {
-   "Mumbai": "DehraDun"
- },
- {
-   "Mumbai": "Nellore"
- },
- {
-   "Mumbai": "Shimoga"
- },
- {
-   "Mumbai": "Tiruppur"
- },
- {
-   "Mumbai": "Raurkela"
- },
- {
-   "Mumbai": "Belgaum"
- },
- {
-   "Mumbai": "Sangli"
- },
- {
-   "Mumbai": "Ajmer"
- },
- {
-   "Mumbai": "Cuttack"
- },
- {
-   "Mumbai": "Baikaner"
- },
- {
-   "Mumbai": "Bhavnagar"
- },
- {
-   "Mumbai": "Hisar"
- },
- {
-   "Mumbai": "Tirunelveli"
- },
- {
-   "Mumbai": "Guntur"
- },
- {
-   "Mumbai": "Shiliguri"
- },
- {
-   "Mumbai": "Ujjain"
- },
- {
-   "Mumbai": "Davangere"
- },
- {
-   "Mumbai": "Akola"
- },
- {
-   "Mumbai": "Gulbarga"
- },
- {
-   "Mumbai": "Dhulia"
- },
- {
-   "Mumbai": "Udaipur"
- },
- {
-   "Mumbai": "Bellary"
- },
- {
-   "Mumbai": "Tuticorin"
- },
- {
-   "Mumbai": "Kurnool"
- },
- {
-   "Mumbai": "Gaya"
- },
- {
-   "Mumbai": "Sikar"
- },
- {
-   "Mumbai": "Tumkur"
- },
- {
-   "Mumbai": "Kollam"
- },
- {
-   "Mumbai": "Ahmadnagar"
- },
- {
-   "Mumbai": "Parbhani"
- },
- {
-   "Mumbai": "Shillong"
- },
- {
-   "Mumbai": "Latur"
- },
- {
-   "Mumbai": "Muzaffarnagar"
- },
- {
-   "Mumbai": "Muzaffarpur"
- },
- {
-   "Mumbai": "Mathura"
- },
- {
-   "Mumbai": "Patiala"
- },
- {
-   "Mumbai": "Saugor"
- },
- {
-   "Mumbai": "Brahmapur"
- },
- {
-   "Mumbai": "NewDelhi"
- },
- {
-   "Mumbai": "Rohtak"
- },
- {
-   "Mumbai": "Ratlam"
- },
- {
-   "Mumbai": "Firozabad"
- },
- {
-   "Mumbai": "Bidar"
- },
- {
-   "Mumbai": "Bamanpuri"
- },
- {
-   "Mumbai": "Panipat"
- },
- {
-   "Mumbai": "Khammam"
- },
- {
-   "Mumbai": "Bhuj"
- },
- {
-   "Mumbai": "Karimnagar"
- },
- {
-   "Mumbai": "Tirupati"
- },
- {
-   "Mumbai": "Hospet"
- },
- {
-   "Mumbai": "ChikkaMandya"
- },
- {
-   "Mumbai": "Alwar"
- },
- {
-   "Mumbai": "Aizawl"
- },
- {
-   "Mumbai": "Imphal"
- },
- {
-   "Mumbai": "TharatiEtawah"
- },
- {
-   "Mumbai": "Pathankot"
- },
- {
-   "Mumbai": "Sonipat"
- },
- {
-   "Mumbai": "Mirzapur"
- },
- {
-   "Mumbai": "Porbandar"
- },
- {
-   "Mumbai": "Bharatpur"
- },
- {
-   "Mumbai": "Puducherry"
- },
- {
-   "Mumbai": "Nagercoil"
- },
- {
-   "Mumbai": "Agartala"
- },
- {
-   "Mumbai": "Ongole"
- },
- {
-   "Mumbai": "Puri"
- },
- {
-   "Mumbai": "Dindigul"
- },
- {
-   "Mumbai": "Haldia"
- },
- {
-   "Mumbai": "Bulandshahr"
- },
- {
-   "Mumbai": "Purnea"
- },
- {
-   "Mumbai": "Proddatur"
- },
- {
-   "Mumbai": "Gurgaon"
- },
- {
-   "Mumbai": "Machilipatnam"
- },
- {
-   "Mumbai": "Sirsa"
- },
- {
-   "Mumbai": "Vizianagaram"
- },
- {
-   "Mumbai": "Vellore"
- },
- {
-   "Mumbai": "Alappuzha"
- },
- {
-   "Mumbai": "Shimla"
- },
- {
-   "Mumbai": "Hindupur"
- },
- {
-   "Mumbai": "Bakshpur"
- },
- {
-   "Mumbai": "Dibrugarh"
- },
- {
-   "Mumbai": "Saidapur"
- },
- {
-   "Mumbai": "Budaun"
- },
- {
-   "Mumbai": "Cuddalore"
- },
- {
-   "Mumbai": "Haripur"
- },
- {
-   "Mumbai": "Silchar"
- },
- {
-   "Mumbai": "Ambala"
- },
- {
-   "Mumbai": "Krishnanagar"
- },
- {
-   "Mumbai": "Kumbakonam"
- },
- {
-   "Mumbai": "Tiruvannamalai"
- },
- {
-   "Mumbai": "Pilibhit"
- },
- {
-   "Mumbai": "Abohar"
- },
- {
-   "Mumbai": "PortBlair"
- },
- {
-   "Mumbai": "AlipurDua�r"
- },
- {
-   "Mumbai": "Hatisa"
- },
- {
-   "Mumbai": "Kohima"
- },
- {
-   "Mumbai": "Gangtok"
- },
- {
-   "Mumbai": "Karur"
- },
- {
-   "Mumbai": "Panaji"
- },
- {
-   "Mumbai": "Saidpur"
- },
- {
-   "Mumbai": "Tezpur"
- },
- {
-   "Mumbai": "Itanagar"
- },
- {
-   "Mumbai": "Daman"
- },
- {
-   "Mumbai": "Silvassa"
- },
- {
-   "Mumbai": "Diu"
- },
- {
-   "Mumbai": "Dispur"
- },
- {
-   "Mumbai": "Kavaratti"
- },
- {
-   "Mumbai": "Calicut"
- },
- {
-   "Mumbai": "Jaipur"
- },
- {
-   "Mumbai": "Ghandinagar"
- },
- {
-   "Mumbai": "Panchkula"
- }
-]
+{"_id":{"$oid":"5e72876e61d207e378c5bdb4"},"city":"Online"}
+{"_id":{"$oid":"5e72876e61d207e378c5bdb5"},"city":"Mumbai"}
+{"_id":{"$oid":"5e72876e61d207e378c5bdb6"},"city":"Delhi"}
+{"_id":{"$oid":"5e72876e61d207e378c5bdb7"},"city":"Kolkata"}
+{"_id":{"$oid":"5e72876e61d207e378c5bdb8"},"city":"Chennai"}
+{"_id":{"$oid":"5e72876e61d207e378c5bdb9"},"city":"Bengaluru"}
+{"_id":{"$oid":"5e72876e61d207e378c5bdba"},"city":"Hyderabad"}
+{"_id":{"$oid":"5e72876e61d207e378c5bdbb"},"city":"Ahmedabad"}
+{"_id":{"$oid":"5e72876e61d207e378c5bdbc"},"city":"Pune"}
+{"_id":{"$oid":"5e72876e61d207e378c5bdbd"},"city":"Surat"}
+{"_id":{"$oid":"5e72876e61d207e378c5bdc0"},"city":"Lucknow"}
+{"_id":{"$oid":"5e72876e61d207e378c5bdc2"},"city":"Patna"}
+{"_id":{"$oid":"5e72876e61d207e378c5bdc3"},"city":"Indore"}
+{"_id":{"$oid":"5e72876e61d207e378c5bdc4"},"city":"Vadodara"}
+{"_id":{"$oid":"5e72876e61d207e378c5bdc5"},"city":"Bhopal"}
+{"_id":{"$oid":"5e72876e61d207e378c5bdc6"},"city":"Coimbatore"}
+{"_id":{"$oid":"5e72876e61d207e378c5bdc7"},"city":"Ludhiana"}
+{"_id":{"$oid":"5e72876e61d207e378c5bdc8"},"city":"Agra"}
+{"_id":{"$oid":"5e72876e61d207e378c5bdc9"},"city":"Kalyan"}
+{"_id":{"$oid":"5e72876e61d207e378c5bdca"},"city":"Vishakhapatnam"}
+{"_id":{"$oid":"5e72876e61d207e378c5bdcb"},"city":"Kochi"}
+{"_id":{"$oid":"5e72876e61d207e378c5bdcc"},"city":"Nasik"}
+{"_id":{"$oid":"5e72876e61d207e378c5bdcd"},"city":"Meerut"}
+{"_id":{"$oid":"5e72876e61d207e378c5bdce"},"city":"Faridabad"}
+{"_id":{"$oid":"5e72876e61d207e378c5bdcf"},"city":"Varanasi"}
+{"_id":{"$oid":"5e72876e61d207e378c5bdd0"},"city":"Ghaziabad"}
+{"_id":{"$oid":"5e72876e61d207e378c5bdd2"},"city":"Jamshedpur"}
+{"_id":{"$oid":"5e72876e61d207e378c5bdd3"},"city":"Madurai"}
+{"_id":{"$oid":"5e72876e61d207e378c5bdd4"},"city":"Jabalpur"}
+{"_id":{"$oid":"5e72876e61d207e378c5bdd5"},"city":"Rajkot"}
+{"_id":{"$oid":"5e72876e61d207e378c5bdd6"},"city":"Dhanbad"}
+{"_id":{"$oid":"5e72876e61d207e378c5bdd7"},"city":"Amritsar"}
+{"_id":{"$oid":"5e72876e61d207e378c5bdd8"},"city":"Warangal"}
+{"_id":{"$oid":"5e72876e61d207e378c5bdd9"},"city":"Allahabad"}
+{"_id":{"$oid":"5e72876e61d207e378c5bdda"},"city":"Srinagar"}
+{"_id":{"$oid":"5e72876e61d207e378c5bddb"},"city":"Aurangabad"}
+{"_id":{"$oid":"5e72876e61d207e378c5bddc"},"city":"Bhilai"}
+{"_id":{"$oid":"5e72876e61d207e378c5bddd"},"city":"Solapur"}
+{"_id":{"$oid":"5e72876e61d207e378c5bdde"},"city":"Ranchi"}
+{"_id":{"$oid":"5e72876e61d207e378c5bddf"},"city":"Jodhpur"}
+{"_id":{"$oid":"5e72876e61d207e378c5bde0"},"city":"Guwahati"}
+{"_id":{"$oid":"5e72876e61d207e378c5bde1"},"city":"Chandigarh"}
+{"_id":{"$oid":"5e72876e61d207e378c5bde2"},"city":"Gwalior"}
+{"_id":{"$oid":"5e72876e61d207e378c5bde3"},"city":"Thiruvananthapuram"}
+{"_id":{"$oid":"5e72876e61d207e378c5bde4"},"city":"Tiruchchirappalli"}
+{"_id":{"$oid":"5e72876e61d207e378c5bde5"},"city":"Hubli"}
+{"_id":{"$oid":"5e72876e61d207e378c5bde6"},"city":"Mysore"}
+{"_id":{"$oid":"5e72876e61d207e378c5bde7"},"city":"Raipur"}
+{"_id":{"$oid":"5e72876e61d207e378c5bde8"},"city":"Salem"}
+{"_id":{"$oid":"5e72876e61d207e378c5bde9"},"city":"Bhubaneshwar"}
+{"_id":{"$oid":"5e72876e61d207e378c5bdea"},"city":"Kota"}
+{"_id":{"$oid":"5e72876e61d207e378c5bdeb"},"city":"Jhansi"}
+{"_id":{"$oid":"5e72876e61d207e378c5bdec"},"city":"Bareilly"}
+{"_id":{"$oid":"5e72876e61d207e378c5bded"},"city":"Aligarh"}
+{"_id":{"$oid":"5e72876e61d207e378c5bdee"},"city":"Bhiwandi"}
+{"_id":{"$oid":"5e72876e61d207e378c5bdef"},"city":"Jammu"}
+{"_id":{"$oid":"5e72876e61d207e378c5bdf0"},"city":"Moradbada"}
+{"_id":{"$oid":"5e72876e61d207e378c5bdf1"},"city":"Mangalore"}
+{"_id":{"$oid":"5e72876e61d207e378c5bdf2"},"city":"Kolhapur"}
+{"_id":{"$oid":"5e72876e61d207e378c5bdf3"},"city":"Amravati"}
+{"_id":{"$oid":"5e72876e61d207e378c5bdf4"},"city":"DehraDun"}
+{"_id":{"$oid":"5e72876e61d207e378c5bdf5"},"city":"Nellore"}
+{"_id":{"$oid":"5e72876e61d207e378c5bdf6"},"city":"Shimoga"}
+{"_id":{"$oid":"5e72876e61d207e378c5bdf7"},"city":"Tiruppur"}
+{"_id":{"$oid":"5e72876e61d207e378c5bdf8"},"city":"Raurkela"}
+{"_id":{"$oid":"5e72876e61d207e378c5bdf9"},"city":"Belgaum"}
+{"_id":{"$oid":"5e72876e61d207e378c5bdfa"},"city":"Sangli"}
+{"_id":{"$oid":"5e72876e61d207e378c5bdfb"},"city":"Ajmer"}
+{"_id":{"$oid":"5e72876e61d207e378c5bdfc"},"city":"Cuttack"}
+{"_id":{"$oid":"5e72876e61d207e378c5bdfd"},"city":"Baikaner"}
+{"_id":{"$oid":"5e72876e61d207e378c5bdfe"},"city":"Bhavnagar"}
+{"_id":{"$oid":"5e72876e61d207e378c5bdff"},"city":"Hisar"}
+{"_id":{"$oid":"5e72876e61d207e378c5be00"},"city":"Tirunelveli"}
+{"_id":{"$oid":"5e72876e61d207e378c5be01"},"city":"Guntur"}
+{"_id":{"$oid":"5e72876e61d207e378c5be02"},"city":"Shiliguri"}
+{"_id":{"$oid":"5e72876e61d207e378c5be03"},"city":"Ujjain"}
+{"_id":{"$oid":"5e72876e61d207e378c5be04"},"city":"Davangere"}
+{"_id":{"$oid":"5e72876e61d207e378c5be05"},"city":"Akola"}
+{"_id":{"$oid":"5e72876e61d207e378c5be06"},"city":"Gulbarga"}
+{"_id":{"$oid":"5e72876e61d207e378c5be07"},"city":"Dhulia"}
+{"_id":{"$oid":"5e72876e61d207e378c5be08"},"city":"Udaipur"}
+{"_id":{"$oid":"5e72876e61d207e378c5be09"},"city":"Bellary"}
+{"_id":{"$oid":"5e72876e61d207e378c5be0a"},"city":"Tuticorin"}
+{"_id":{"$oid":"5e72876e61d207e378c5be0b"},"city":"Kurnool"}
+{"_id":{"$oid":"5e72876e61d207e378c5be0c"},"city":"Gaya"}
+{"_id":{"$oid":"5e72876e61d207e378c5be0d"},"city":"Sikar"}
+{"_id":{"$oid":"5e72876e61d207e378c5be0e"},"city":"Tumkur"}
+{"_id":{"$oid":"5e72876e61d207e378c5be0f"},"city":"Kollam"}
+{"_id":{"$oid":"5e72876e61d207e378c5be10"},"city":"Ahmadnagar"}
+{"_id":{"$oid":"5e72876e61d207e378c5be11"},"city":"Parbhani"}
+{"_id":{"$oid":"5e72876e61d207e378c5be12"},"city":"Shillong"}
+{"_id":{"$oid":"5e72876e61d207e378c5be13"},"city":"Latur"}
+{"_id":{"$oid":"5e72876e61d207e378c5be14"},"city":"Muzaffarnagar"}
+{"_id":{"$oid":"5e72876e61d207e378c5be15"},"city":"Muzaffarpur"}
+{"_id":{"$oid":"5e72876e61d207e378c5be16"},"city":"Mathura"}
+{"_id":{"$oid":"5e72876e61d207e378c5be17"},"city":"Patiala"}
+{"_id":{"$oid":"5e72876e61d207e378c5be18"},"city":"Saugor"}
+{"_id":{"$oid":"5e72876e61d207e378c5be19"},"city":"Brahmapur"}
+{"_id":{"$oid":"5e72876e61d207e378c5be1a"},"city":"NewDelhi"}
+{"_id":{"$oid":"5e72876e61d207e378c5be1b"},"city":"Rohtak"}
+{"_id":{"$oid":"5e72876e61d207e378c5be1c"},"city":"Ratlam"}
+{"_id":{"$oid":"5e72876e61d207e378c5be1d"},"city":"Firozabad"}
+{"_id":{"$oid":"5e72876e61d207e378c5be1e"},"city":"Bidar"}
+{"_id":{"$oid":"5e72876e61d207e378c5be1f"},"city":"Bamanpuri"}
+{"_id":{"$oid":"5e72876e61d207e378c5be20"},"city":"Panipat"}
+{"_id":{"$oid":"5e72876e61d207e378c5be21"},"city":"Khammam"}
+{"_id":{"$oid":"5e72876e61d207e378c5be22"},"city":"Bhuj"}
+{"_id":{"$oid":"5e72876e61d207e378c5be23"},"city":"Karimnagar"}
+{"_id":{"$oid":"5e72876e61d207e378c5be24"},"city":"Tirupati"}
+{"_id":{"$oid":"5e72876e61d207e378c5be25"},"city":"Hospet"}
+{"_id":{"$oid":"5e72876e61d207e378c5be26"},"city":"ChikkaMandya"}
+{"_id":{"$oid":"5e72876e61d207e378c5be27"},"city":"Alwar"}
+{"_id":{"$oid":"5e72876e61d207e378c5be28"},"city":"Aizawl"}
+{"_id":{"$oid":"5e72876e61d207e378c5be29"},"city":"Imphal"}
+{"_id":{"$oid":"5e72876e61d207e378c5be2a"},"city":"TharatiEtawah"}
+{"_id":{"$oid":"5e72876e61d207e378c5be2b"},"city":"Pathankot"}
+{"_id":{"$oid":"5e72876e61d207e378c5be2c"},"city":"Sonipat"}
+{"_id":{"$oid":"5e72876e61d207e378c5be2d"},"city":"Mirzapur"}
+{"_id":{"$oid":"5e72876e61d207e378c5be2e"},"city":"Porbandar"}
+{"_id":{"$oid":"5e72876e61d207e378c5be2f"},"city":"Bharatpur"}
+{"_id":{"$oid":"5e72876e61d207e378c5be30"},"city":"Puducherry"}
+{"_id":{"$oid":"5e72876e61d207e378c5be31"},"city":"Nagercoil"}
+{"_id":{"$oid":"5e72876e61d207e378c5be32"},"city":"Agartala"}
+{"_id":{"$oid":"5e72876e61d207e378c5be33"},"city":"Ongole"}
+{"_id":{"$oid":"5e72876e61d207e378c5be34"},"city":"Puri"}
+{"_id":{"$oid":"5e72876e61d207e378c5be35"},"city":"Dindigul"}
+{"_id":{"$oid":"5e72876e61d207e378c5be36"},"city":"Haldia"}
+{"_id":{"$oid":"5e72876e61d207e378c5be37"},"city":"Bulandshahr"}
+{"_id":{"$oid":"5e72876e61d207e378c5be38"},"city":"Purnea"}
+{"_id":{"$oid":"5e72876e61d207e378c5be39"},"city":"Proddatur"}
+{"_id":{"$oid":"5e72876e61d207e378c5be3a"},"city":"Gurgaon"}
+{"_id":{"$oid":"5e72876e61d207e378c5be3b"},"city":"Machilipatnam"}
+{"_id":{"$oid":"5e72876e61d207e378c5be3c"},"city":"Sirsa"}
+{"_id":{"$oid":"5e72876e61d207e378c5be3d"},"city":"Vizianagaram"}
+{"_id":{"$oid":"5e72876e61d207e378c5be3e"},"city":"Vellore"}
+{"_id":{"$oid":"5e72876e61d207e378c5be3f"},"city":"Alappuzha"}
+{"_id":{"$oid":"5e72876e61d207e378c5be40"},"city":"Shimla"}
+{"_id":{"$oid":"5e72876e61d207e378c5be41"},"city":"Hindupur"}
+{"_id":{"$oid":"5e72876e61d207e378c5be42"},"city":"Bakshpur"}
+{"_id":{"$oid":"5e72876e61d207e378c5be43"},"city":"Dibrugarh"}
+{"_id":{"$oid":"5e72876e61d207e378c5be44"},"city":"Saidapur"}
+{"_id":{"$oid":"5e72876e61d207e378c5be45"},"city":"Budaun"}
+{"_id":{"$oid":"5e72876e61d207e378c5be46"},"city":"Cuddalore"}
+{"_id":{"$oid":"5e72876e61d207e378c5be47"},"city":"Haripur"}
+{"_id":{"$oid":"5e72876e61d207e378c5be48"},"city":"Silchar"}
+{"_id":{"$oid":"5e72876e61d207e378c5be49"},"city":"Ambala"}
+{"_id":{"$oid":"5e72876e61d207e378c5be4a"},"city":"Krishnanagar"}
+{"_id":{"$oid":"5e72876e61d207e378c5be4b"},"city":"Kumbakonam"}
+{"_id":{"$oid":"5e72876e61d207e378c5be4c"},"city":"Tiruvannamalai"}
+{"_id":{"$oid":"5e72876e61d207e378c5be4d"},"city":"Pilibhit"}
+{"_id":{"$oid":"5e72876e61d207e378c5be4e"},"city":"Abohar"}
+{"_id":{"$oid":"5e72876e61d207e378c5be4f"},"city":"PortBlair"}
+{"_id":{"$oid":"5e72876e61d207e378c5be50"},"city":"AlipurDua�r"}
+{"_id":{"$oid":"5e72876e61d207e378c5be51"},"city":"Hatisa"}
+{"_id":{"$oid":"5e72876e61d207e378c5be52"},"city":"Kohima"}
+{"_id":{"$oid":"5e72876e61d207e378c5be53"},"city":"Gangtok"}
+{"_id":{"$oid":"5e72876e61d207e378c5be54"},"city":"Karur"}
+{"_id":{"$oid":"5e72876e61d207e378c5be55"},"city":"Panaji"}
+{"_id":{"$oid":"5e72876e61d207e378c5be56"},"city":"Saidpur"}
+{"_id":{"$oid":"5e72876e61d207e378c5be57"},"city":"Tezpur"}
+{"_id":{"$oid":"5e72876e61d207e378c5be58"},"city":"Itanagar"}
+{"_id":{"$oid":"5e72876e61d207e378c5be59"},"city":"Daman"}
+{"_id":{"$oid":"5e72876e61d207e378c5be5a"},"city":"Silvassa"}
+{"_id":{"$oid":"5e72876e61d207e378c5be5b"},"city":"Diu"}
+{"_id":{"$oid":"5e72876e61d207e378c5be5c"},"city":"Dispur"}
+{"_id":{"$oid":"5e72876e61d207e378c5be5d"},"city":"Kavaratti"}
+{"_id":{"$oid":"5e72876e61d207e378c5be5e"},"city":"Calicut"}
+{"_id":{"$oid":"5e72876e61d207e378c5be5f"},"city":"Jaipur"}
+{"_id":{"$oid":"5e72876e61d207e378c5be60"},"city":"Ghandinagar"}
+{"_id":{"$oid":"5e72876e61d207e378c5be61"},"city":"Panchkula"}
+{"_id":{"$oid":"5e72876e61d207e378c5be62"},"city":""}
