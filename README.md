@@ -3,5 +3,5 @@ A website developed using the MEN stack, it helps in connecting a student to a t
 
 Contributors:
 >
-*Disha Lekurwale @Disha2706
+* Disha Lekurwale @Disha2706
 * Rasika Gawande @RasikaGawande
